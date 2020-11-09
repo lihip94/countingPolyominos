@@ -69,10 +69,8 @@ def counting_poly(untried_set, occupied_set, polyomino, n):
 
 
 def main():
-    # untried_set = {(0, 0)}
+
     n = int(input("Enter the max size of the polyomino "))
-    # polyomino = []
-    # occupied_set = set()
     print("fixed(n) for n up to specified limit " + str(n))
     print(counting_poly({(0, 0)}, set(), [], n))
 

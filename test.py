@@ -5,7 +5,7 @@ from counting_polyominos import counting_poly
 class TestCounting(unittest.TestCase):
     def test_sum(self):
         """
-        test that it can calculate sum of polyominos from number x
+        test that it can calculate sum of fixed polyominos from number x
         """
         up_to_1 = counting_poly({(0, 0)}, set(), [], 1)
         up_to_2 = counting_poly({(0, 0)}, set(), [], 2)
