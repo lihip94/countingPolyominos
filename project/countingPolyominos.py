@@ -64,6 +64,7 @@ def counting_poly(untried_set, occupied_set, polyomino, n):
             count = count + counting_poly(untried_copy, occupied_set, polyomino, n)
             untried_set = remove_neighbors(untried_set, new_neighbors)
         polyomino.pop()
+        # size--
     occupied_set.clear()
     return count
 
